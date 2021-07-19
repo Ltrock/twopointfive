@@ -1,0 +1,250 @@
+/*Table of content*/
+
+
+/*
+1.section setting
+*/
+
+
+/*
+2.section carousel
+*/
+
+
+/*
+3.section article
+*/
+
+
+/*
+4.section footer
+*/
+
+
+/*
+5.section navbar
+*/
+
+
+/* colors
+383838-028090-86a5d9-e4fde1-456990
+
+*/
+
+
+/*section setting*/
+
+html,
+body {
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-alpha {
+    background: rgba(0, 0, 0, 0.5)
+}
+
+@media(max-width:768px) {
+    .display-3 {
+        font-size: 2.5rem;
+    }
+}
+
+
+/*section carousel*/
+
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-inner .active {
+    height: 100%;
+}
+
+.carousel-image {
+    widows: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    top: 40%;
+}
+
+.backscreen {
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+.border-short-bottom {
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.border-short-bottom::after {
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 2px;
+    background: #595959;
+    bottom: 0;
+    left: 50%;
+    margin-left: -150px;
+}
+
+
+/* section Article */
+
+.warpper-card-img {
+    position: relative;
+    /* padding-top: 56.25%; */
+    overflow: hidden;
+}
+
+.warpper-card-img:after {
+    content: "";
+    padding-top: 56.25%;
+    display: block;
+}
+
+.warpper-card-img img {
+    position: absolute;
+    top: 0;
+    transition: 1s;
+}
+
+.warpper-card-img img:hover {
+    transform: scale(1.3);
+}
+
+.btn-group-custom button {
+    width: 100px;
+    margin-bottom: 0.5rem;
+}
+
+.blog-content {
+    padding: 50px 100px;
+    box-shadow: 0 0 10px #a5a5a5;
+}
+
+.owl-carousel .card-body {
+    height: 150px;
+    overflow: hidden;
+}
+
+@media(max-width:991px) {
+    .blog-content {
+        padding: 40px 50px;
+    }
+}
+
+@media(max-width:768px) {
+    .blog-content {
+        padding: 40px 30px;
+    }
+}
+
+
+/* section footer */
+
+.semi-footer {
+    color: white;
+    background: #383838;
+}
+
+.semi-footer a {
+    color: white;
+}
+
+.semi-footer h4 {
+    color: #86a5d9;
+    border-bottom: solid 1px;
+    padding: 10px 0;
+    margin-top: 10px 0;
+}
+
+.footer {
+    background: #000;
+    color: aliceblue;
+    font-size: 0.7 rem;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+
+
+/* Set the size of the div element that contains the map */
+
+
+#navbar {
+    padding: 25px;
+    transition: 0.5s
+}
+
+.nav-link:hover {
+    color: plum;
+}
+
+@media(max-width:480px) {
+    .navbar-brand {
+        font-size: 0.8 rem;
+        line-height: 2rem;
+    }
+}
+
+
+/*section page-title*/
+
+.page-img {
+    padding: 200px 0 120px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+
+
+
+
+/* Section Star */
+
+
+/* ☆★ */
+
+.star-rating {
+    position: relative;
+    font-size: 2em;
+    color: gold;
+    display: inline-block;
+}
+
+.star-current {
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/* Section On to Top*/
+
+.to-top {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 40px;
+    height: 40px;
+    background: #75c6fc;
+    color: #fff;
+    z-index: 9999;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.to-top:hover {
+    color: #fff;
+    background: #119bf7;
+}
